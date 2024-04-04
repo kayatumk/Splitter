@@ -1,0 +1,51 @@
+/*nav bar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: orange;
+}
+
+#logo {
+    height: 10%;
+}
+
+.centre {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  float: left;
+  background-color: orange;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+li a:hover:not(.active) {
+  background-color: green;
+}
+
+li :hover {
+  background-color: green;
+  color: white;
+}
+
+.active {
+  background-color: black;
+}
+
+@media screen and (min-width:500px){
+    li a{
+        font-size:1.5em;
+    }
+}
