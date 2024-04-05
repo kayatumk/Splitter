@@ -44,6 +44,13 @@ li :hover {
   background-color: black;
 }
 
+div {
+  width: 87%;
+  border: 15px solid orange;
+  padding: 50px;
+  margin: 20px;
+}
+
 @media screen and (min-width:500px){
     li a{
         font-size:1.5em;
