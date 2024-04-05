@@ -1,23 +1,37 @@
 <html>
   <meta charset="utf-8">
   <title> Sketches </title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <img id="logo" class="centre" src="assets/images/SplitterLogo.PNG" alt="Splitter Logo">
-  <ul>
-      <li> <a href="index.html">Home</a></li> 
-      <li> <a href="companalysis.html">Competitor's analysis</a></li>
-      <li> <a href="prototyping.html">Prototype</a></li>
-      <li> <a class="active" href="sketching.html">Sketching</a></li>
-      <li> <a href="graphing.html"> Graphs</a></li>
-      <li> <a href="moregraphs.html"> More Graphs</a></li>
-      <li> <a href="usertesting.html"> User Testing </a></li>
-      <li> <a href="references.html"> References</a></li>
-  </ul>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                   <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>               
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li> <a href="index.html">Home</a></li> 
+            <li> <a href="companalysis.html">Competitor's analysis</a></li>
+            <li> <a href="prototyping.html">Prototype</a></li>
+            <li> <a class="active" href="sketching.html">Sketching</a></li>
+            <li> <a href="graphing.html"> Graphs</a></li>
+            <li> <a href="moregraphs.html"> More Graphs</a></li>
+            <li> <a href="usertesting.html"> User Testing </a></li>
+            <li> <a href="references.html"> References</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <body>
-    <div>
+    <div class="item-border">
       <h1> Ideation and Sketches </h1>
       <p> In the second phase of the design process, initial ideations and sketches were undertaken as the beginning of the app 
         development. The sketches, inspired by the opportunities discussed in the research stage, were of a low fidelity level 
@@ -25,7 +39,7 @@
         we wish to make on our app are shown as follows.   </p>
     </div>
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div id="myCarousel" class="carousel slide item-border" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -42,63 +56,63 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active">
-          <img src="assets/images/Sketches/LogIn.PNG" alt="Log in">
+          <img class="centre" src="assets/images/Sketches/LogIn.PNG" alt="Log in">
           <div class="carousel-caption">
             <h3>Log in page</h3>
           </div>
         </div>
     
         <div class="item">
-          <img src="assets/images/Sketches/Groups.PNG" alt="Home page">
+          <img class="centre" src="assets/images/Sketches/Groups.PNG" alt="Home page">
           <div class="carousel-caption">
             <h3>Home page</h3>
           </div>
         </div>
     
         <div class="item">
-          <img src="assets/images/Sketches/Settings.PNG" alt="Settings">
+          <img class="centre" src="assets/images/Sketches/Settings.PNG" alt="Settings">
           <div class="carousel-caption">
             <h3>Settings</h3>
           </div>
         </div>
 
         <div class="item">
-          <img src="assets/images/Sketches/NewGroup.PNG" alt="NewGroup">
+          <img class="centre" src="assets/images/Sketches/NewGroup.PNG" alt="NewGroup">
           <div class="carousel-caption">
             <h3>New Group</h3>
           </div>
         </div>
 
         <div class="item">
-          <img src="assets/images/Sketches/AccountOverview.PNG" alt="Account overview">
+          <img class="centre" src="assets/images/Sketches/AccountOverview.PNG" alt="Account overview">
           <div class="carousel-caption">
             <h3>Account Overview</h3>
           </div>
         </div>
 
         <div class="item">
-          <img src="assets/images/Sketches/BillShare.PNG" alt="Bill share">
+          <img class="centre" src="assets/images/Sketches/BillShare.PNG" alt="Bill share">
           <div class="carousel-caption">
             <h3>Bill share</h3>
           </div>
         </div>
 
         <div class="item">
-          <img src="assets/images/Sketches/Payment.PNG" alt="Payment">
+          <img class="centre" src="assets/images/Sketches/Payment.PNG" alt="Payment">
           <div class="carousel-caption">
             <h3>Payment</h3>
           </div>
         </div>
 
         <div class="item">
-          <img src="assets/images/Sketches/Reimbursement.PNG" alt="Reimbursement">
+          <img class="centre" src="assets/images/Sketches/Reimbursement.PNG" alt="Reimbursement">
           <div class="carousel-caption">
             <h3>Reimbursement</h3>
           </div>
         </div>
 
         <div class="item">
-          <img src="assets/images/Sketches/History.PNG" alt="History">
+          <img class="centre" src="assets/images/Sketches/History.PNG" alt="History">
           <div class="carousel-caption">
             <h3>History</h3>
           </div>
@@ -115,9 +129,7 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-    <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </body>
 </html>
