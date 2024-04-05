@@ -51,6 +51,8 @@ div {
   margin: 20px;
 }
 
+
+
 @media screen and (min-width:500px){
     li a{
         font-size:1.5em;
