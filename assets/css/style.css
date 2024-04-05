@@ -2,13 +2,13 @@
     height: 10%;
 }
 
-#myCarousel {
-  width: 40%; /* Adjust the width as necessary */
-  margin: auto; /* Center the carousel */
+#myCarousel-pro {
+  width: 40%; 
+  margin: auto; 
 }
-#myCarousel .carousel-inner .item img {
-  width: 90%; /* Make images responsive to the container */
-  height: 75%; /* Maintain aspect ratio */
+#myCarousel-pro .carousel-inner .item img {
+  width: 90%;
+  height: 75%; 
 }
 
 .centre {
