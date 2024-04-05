@@ -44,7 +44,7 @@ li :hover {
   background-color: black;
 }
 
-div {
+.item-border {
   width: 87%;
   border: 15px solid orange;
   padding: 50px;
